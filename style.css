@@ -24,6 +24,37 @@ header .titlebar {
     background-size: cover;
 }
 
-.navbar ul li {
-    display: inline-flex;
+.navbar {
+    height: 69px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    margin-bottom: 20px;
+    z-index: 2;
+}
+
+.teacozylogo {
+    height: 50px;
+    width: auto;
+}
+.navbar ul {
+    display: inline-block;
+    float: right;
+}
+
+.navbar li {
+    display: inline-block;
+    text-decoration: underline;
+    ;
+}
+
+.tea-month {
+    display: flex;
+    max-width: 1000px;
+    height: 1000px;
+}
+
+.tea-month-item {
+    height: 200px;
+    width: 300px;
 }
