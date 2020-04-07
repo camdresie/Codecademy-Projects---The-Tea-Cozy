@@ -1,0 +1,29 @@
+* {
+    font-family: Helvetica, sans-serif;
+    color: seashell;
+    background-color: black;
+    opacity: .9;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 22px;
+}
+
+header {
+    width: 100%;
+    height: auto;
+}
+
+header .titlebar {
+    width: 1200px;
+    height: 700px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar ul li {
+    display: inline-flex;
+}
