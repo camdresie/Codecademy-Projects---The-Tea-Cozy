@@ -2,7 +2,6 @@
     font-family: Helvetica, sans-serif;
     color: seashell;
     background-color: black;
-    opacity: .9;
     box-sizing: border-box;
 }
 
@@ -22,39 +21,96 @@ header .titlebar {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    margin: 0 auto;
+    opacity: .9;
 }
 
 .navbar {
-    height: 69px;
+    height: 3rem;
     width: 100%;
     position: fixed;
     top: 0;
     margin-bottom: 20px;
+    border-bottom: 1px solid seashell;
     z-index: 2;
 }
 
 .teacozylogo {
     height: 50px;
     width: auto;
+    float: left;
+    margin-left: 10px;
+    margin-top: 10px;
 }
 .navbar ul {
     display: inline-block;
     float: right;
+    margin-right: 1rem;
 }
 
 .navbar li {
     display: inline-block;
     text-decoration: underline;
-    ;
 }
 
-.tea-month {
-    display: flex;
-    max-width: 1000px;
-    height: 1000px;
+.mission-text {
+    position: relative;
+    top: 12rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    opacity: .9;
 }
 
-.tea-month-item {
+.tea-month-heading {
+    text-align: center;
+    width: 1000px;
+    margin: 0 auto;
+    opacity: .9;
+}
+
+.tea-month-heading1 {
+    margin-bottom: 0rem;
+}
+
+.tea-month-heading2 {
+    margin-top: 0rem;
+}
+
+.monthly-items {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    opacity: .9;
+}
+
+.tea-month-image {
     height: 200px;
     width: 300px;
+    opacity: .9;
+}
+
+.caption {
+    text-align: center;
+    opacity: .9;
+}
+
+.locations {
+    width: 1200px;
+    height: 500px;
+    background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.location-item {
+    width: 300px;
+    height: auto;
+    text-align: center;
+    border-radius: 1rem;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
