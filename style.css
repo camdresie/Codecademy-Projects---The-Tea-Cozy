@@ -101,16 +101,37 @@ header .titlebar {
     height: 500px;
     background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position-x: 1rem;
+    background-position-y: -3.5rem;
     background-size: cover;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.location-heading {
+    background: transparent;
+    padding-top: 45px;
+    margin-bottom: 15px;
 }
 
 .location-item {
     width: 300px;
     height: auto;
     text-align: center;
-    border-radius: 1rem;
     display: inline-flex;
     flex-wrap: wrap;
     justify-content: center;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.contact {
+    text-align: center;
+    opacity: .9;
+    height: 200px;
+}
+
+.copyright {
+    text-align: left;
+    margin-left: 20px;
 }
